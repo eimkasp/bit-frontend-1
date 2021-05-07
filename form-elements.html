@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Elements</title>
+  </head>
+  <body>
+    <h1>Formu elementai</h1>
+    <form action="" method="">
+      <!-- Cia bus visi imanomi formos elementai -->
+      <div class="form-example">
+        <h2>Paprasti tekstiniai laukeliai</h2>
+        <label for="text">input[type="text"]</label>
+        <input type="text" required placeholder="Tekto Laukelis" name="text" />
+
+        <h3>Type atributo dazniausiai naudojamos reiksmes:</h3>
+        <ul>
+          <li>text</li>
+          <li>email</li>
+          <li>number</li>
+          <li>password</li>
+        </ul>
+      </div>
+
+      <h2>Checkbox laukeliai</h2>
+      <div class="form-example">
+        <div class="form-example__checkbox">
+          <label for="checkbox1">
+            Sutinku su
+            <a href="#"> vartojimo taisyklemis </a>
+          </label>
+          <input
+            type="checkbox"
+            id="checkbox1"
+            name="checkbox"
+            required
+            value="1"
+          />
+        </div>
+
+        <div class="form-example__checkbox">
+          <label for="checkbox2">Viskas bus gerai</label>
+          <input type="checkbox" id="checkbox2" name="checkbox" value="2" />
+        </div>
+
+        <div class="form-example__checkbox">
+          <label for="checkbox3">Noriu gauti naujienlaiski</label>
+          <input
+            type="checkbox"
+            id="checkbox3"
+            name="checkbox"
+            checked
+            value="3"
+          />
+        </div>
+      </div>
+
+      <h2>Radio laukeliai</h2>
+      <div class="form-example">
+        <div class="form-example__checkbox">
+          <label for="radio1">input[type="checkbox"] 1</label>
+          <!-- Name atributas sugurpuoja radio/checkbox pasirinkimus i skiringas grupes -->
+          <input
+            type="radio"
+            id="radio1"
+            required
+            name="radio-group-1"
+            value="1"
+          />
+        </div>
+
+        <div class="form-example__checkbox">
+          <label for="radio2">input[type="checkbox"] 2</label>
+          <input
+            type="radio"
+            id="radio2"
+            required
+            name="radio-group-1"
+            checked
+            value="2"
+          />
+        </div>
+
+        <div class="form-example__checkbox">
+          <label for="radio3">input[type="checkbox"] 3</label>
+          <input
+            type="radio"
+            id="radio3"
+            required
+            name="radio-group-1"
+            value="3"
+          />
+        </div>
+      </div>
+
+      <h2>Lytis</h2>
+      <div class="form-example">
+        <div class="form-example__checkbox">
+          <label for="checkbox1">Vyras</label>
+          <input
+            type="radio"
+            id="checkbox1"
+            name="radio-group-2"
+            required
+            value="1"
+          />
+        </div>
+
+        <div class="form-example__checkbox">
+          <label for="checkbox2">Moteris</label>
+          <input
+            type="radio"
+            id="checkbox2"
+            name="radio-group-2"
+            required
+            value="2"
+          />
+        </div>
+
+        <div class="form-example__checkbox">
+          <label for="checkbox3">Kita</label>
+          <input
+            type="radio"
+            id="checkbox3"
+            name="radio-group-2"
+            required
+            value="3"
+          />
+        </div>
+      </div>
+
+      <h2>Select</h2>
+      <div class="form-example__select">
+        <div>
+          <label for="select">Select elementas</label>
+          <select name="select" id="select">
+            <option value="1">Pasirinkimas 1</option>
+            <option value="2">Pasirinkimas 2</option>
+            <option value="3">Pasirinkimas 3</option>
+            <option value="4">Pasirinkimas 4</option>
+            <option value="5">Pasirinkimas 5</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="select1">Select elementas (Required)</label>
+          <select name="select1" id="select1" required>
+            <!-- Jei norime kad select laukelis su required atributu veiktu teisingai
+                turime nurodyti pirma elementa su tuscia value reiksme
+            -->
+            <option value="">Butinai pasirinkite pasirinkima</option>
+            <option value="2">Pasirinkimas 2</option>
+            <option value="3">Pasirinkimas 3</option>
+            <option value="4">Pasirinkimas 4</option>
+            <option value="5" disabled>Pasirinkimas 5</option>
+          </select>
+        </div>
+      </div>
+
+      <h2>Textarea</h2>
+      <div class="form-example__textarea">
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Jusu nuomone apie kazka"
+          rows="20"
+          cols="100"
+        ></textarea>
+      </div>
+
+      <h2>File - Failo ikelimo laukelis</h2>
+      <div class="form-example__textarea">
+        <input type="file" name="photo" />
+      </div>
+      <div class="form-example">
+        <input type="submit" />
+      </div>
+    </form>
+  </body>
+</html>
