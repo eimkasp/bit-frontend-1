@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Kontaktai</title>
+  </head>
+  <body>
+    <img
+      width="50px"
+      height="auto"
+      src="image/ugninisdrakonas.jpg"
+      alt="logotipas"
+    />
+    <h1>Kontaktai:</h1>
+
+    <ul>
+      <li>Telefono numeris: <a href="tel:+37080080000">+37080080000</a></li>
+
+      <li>
+        <!-- 
+                Jei naudojame mail to, gera praktika yra nuorodos tekste
+                parasyti ta pati el.pasto adresa, kaip ir nuorodoje
+            -->
+        El. paštas <a href="mailto:free@mail.com">free@mail.com</a>
+      </li>
+
+      <li>
+        <a href="https://goo.gl/maps/CaeqRikGGGjeHkc27" target="_blank">
+          Geografinė padėtis
+        </a>
+      </li>
+    </ul>
+
+    <section class="form-section">
+      <h2>Užpildykite žemiau esančią formą</h2>
+      <!-- 
+            CSS Class naming: http://getbem.com/ 
+            Kaip sugalvoti gerus pavadinimus css klasems
+        -->
+      <form class="" action="" method="">
+        <div class="form-input">
+          <div class="form-input__label">
+            <label for="fname">Vardas:</label>
+          </div>
+          <div class="form-input__field">
+            <input type="text" id="fname" name="fname" value="Jonas" />
+          </div>
+        </div>
+
+        <div class="form-input">
+          <div class="form-input__label">
+            <label for="lname">Pavardė:</label>
+          </div>
+
+          <div class="form-input__field">
+            <input type="text" id="lname" name="lname" value="Jonaitis" />
+          </div>
+        </div>
+
+        <div class="form-input">
+          <div class="form-input__label">
+            <label for="miestas">Miestas:</label>
+          </div>
+
+          <div class="form-input__field">
+            <input type="text" id="miestas" name="miestas" value="Kaunas" />
+          </div>
+        </div>
+
+        <div class="form-input">
+          <div class="form-input__label">
+            <label for="size">Batų dydis:</label>
+          </div>
+
+          <div class="form-input__field">
+            <input type="text" id="size" name="dydis" value="46" />
+          </div>
+        </div>
+
+        <div class="form-input">
+          <div class="form-input__label">
+            <label for="zinute">Komentarus rašom žemiau:</label>
+          </div>
+
+          <div class="form-input__field">
+            <textarea
+              name="zinute"
+              rows="10"
+              cols="30"
+              placeholder="Čia galite parašyti savo atsiliepimus."
+            >
+            </textarea>
+          </div>
+        </div>
+        <div class="form-input">
+          <div class="form-input__field">
+            <input type="submit" value="Siųsti" />
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
