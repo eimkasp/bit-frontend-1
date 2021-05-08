@@ -1,0 +1,20 @@
+/* CSS Selektorius */
+p {
+  /* Teksto Spalva */
+  color: green; /* Color/Background ir Font-Size tai yra css properties */
+
+  /* Fono spalva */
+  background: tomato;
+
+  /* Teksto dydis */
+  font-size: 20px;
+
+  /* Plotis */
+  width: 50%; /* Galime naudoti: % , px yra ir kitu reiksmiu galimu (em, rem, vw, vh) */
+}
+
+h1 {
+  color: red;
+  background: black;
+  font-size: 100px;
+}
