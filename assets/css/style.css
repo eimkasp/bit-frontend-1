@@ -17,4 +17,10 @@ h1 {
   color: red;
   background: black;
   font-size: 100px;
+  text-align: center;
+  font-weight: 700; /* 700 bold / 400 normalus / 300 light */
+  line-height: 20px; /* Tarpas tarp eiluciu */
+  /* Papildomai nagrinesime kitose pasakaitose */
+  padding: 10px;
+  margin: 10px;
 }
