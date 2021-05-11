@@ -1,0 +1,60 @@
+.bg-yellow {
+  background: yellow;
+}
+
+.bg-green {
+  background: green;
+}
+
+.bg-red {
+    background: red;
+}
+
+/* Margin - 10px */
+.m-10 {
+  margin: 10px;
+}
+
+/* Padding - 10px */
+.p-10 {
+  padding: 10px;
+}
+
+.margin-demo {
+    /* Paprasta, ilgoji sintakse */
+    margin-top: -20px;
+    margin-left: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    /* Trumpoji/Shorthand sintakse */
+    /* top right bottom left */
+    margin: -20px 10px 10px 150px;
+
+    /* 
+    1 - Top/Bottom 
+    2 - Left/Right
+    */
+    margin: 10px 0;
+
+    /* Vienodas margin is visu pusiu */
+    margin: 0;
+}
+
+.padding-demo {
+    /* Padding negali tureti neigiamu reiksmiu */
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 10px;
+
+    /* ND Uzrasyti sita css taisykle, naudojantis tiesiog padding taisykle */
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Abu sie aprasymai reiskia ta pati */
+    margin: 0 auto;
+}
