@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(228, 238, 240);
+  padding-top: 20px;
+  padding-left: 33%;
+}
+
+table,
+tr,
+td {
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-spacing: 0px;
+  border-width: 1px;
+  padding: 10px;
+}
+/* # = ID
+   . = class
+
+   CSS Taisykliu svorio svarba:
+   elementas - 1 tasku
+   class - 10 tasku
+   id - 100 tasku
+
+   !important - 1000
+*/
+
+/* Svoris 12 */
+body .background-green {
+  background-color: rgb(162, 214, 172);
+}
+
+/* Svoris 10 */
+.title {
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+footer {
+  padding-top: 50px; /* atitraukimas nuo virsaus */
+  font-size: 15px;
+}
