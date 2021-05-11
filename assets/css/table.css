@@ -1,7 +1,5 @@
 body {
   background-color: rgb(228, 238, 240);
-  padding-top: 20px;
-  padding-left: 33%;
 }
 
 table,
@@ -43,4 +41,13 @@ body .background-green {
 footer {
   padding-top: 50px; /* atitraukimas nuo virsaus */
   font-size: 15px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
 }
