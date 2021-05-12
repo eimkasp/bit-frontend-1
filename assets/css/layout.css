@@ -1,0 +1,35 @@
+.cards {
+  background: #f8f9fa;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.box-wrapper {
+    margin-top: 100px;
+}
+
+.box {
+    float: left; /* Dazniausiai left/right/none */
+    border: 1px solid red;
+    padding: 24px;
+
+    /* Tikras elemento plotis skaiciuojamas:
+       width + padding + border
+    */
+    width: 30.33%;
+
+    /* 
+    Jei naudojame sia css taisykle, 
+    bendras elemento plotis yra toks, kokia yra width reiksme 
+    */
+    box-sizing: border-box;
+
+    margin-bottom: 20px;
+    margin-right: 3%;
+}
