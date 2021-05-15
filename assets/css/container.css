@@ -1,0 +1,56 @@
+/* 
+  Google Fonts
+
+  https://fonts.google.com/specimen/Dancing+Script#standard-styles
+
+*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Dancing Script", cursive;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.container-small {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* css Ieskos: section elemento su .news class */
+section.news {
+  background: lightblue;
+  padding: 60px 0;
+}
+
+/* CSS Ieskos elemento su .news class, section elemento viduje */
+/* section .news {
+    background: black;
+    padding: 60px 0;
+} */
+
+.popular-news {
+  background: red;
+  padding: 60px 0;
+}
+
+.left-side {
+  float: left;
+  width: 50%;
+}
+
+.right-side {
+  float: left;
+  width: 50%;
+}
