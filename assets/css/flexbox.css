@@ -1,0 +1,33 @@
+body {
+  background: red;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  border-radius: 3px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  /* Align items, nustato vertikalu lygiavima, jei flex-direction:row */
+  align-items: stretch;
+  /* flex-direction: row-reverse; */
+}
+
+.col {
+  /* 
+    Kadangi tevinis elementas .row turi display: flex 
+    Sis elementas naudoja flexbox savybes (flexbox item)
+    */
+  width: 25%;
+  /* Visada bus 20px tarpas tarp stulpeliu */
+  margin: 0 10px;
+}

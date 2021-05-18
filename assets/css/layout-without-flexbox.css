@@ -1,0 +1,34 @@
+body {
+  background: red;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card {
+  border-radius: 3px;
+  background: white;
+  padding: 15px;
+  height: 100%;
+}
+
+.row {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.col {
+  box-sizing: border-box;
+  width: 25%;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+}
