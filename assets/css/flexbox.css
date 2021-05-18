@@ -4,6 +4,7 @@ body {
 
 .container {
   width: 1140px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -20,6 +21,9 @@ body {
   /* Align items, nustato vertikalu lygiavima, jei flex-direction:row */
   align-items: stretch;
   /* flex-direction: row-reverse; */
+  
+  /* Valdo elementu isidestyma, ar gali elementai atsirasti vienas po kitu */
+  flex-wrap: wrap;
 }
 
 .col {
@@ -28,6 +32,15 @@ body {
     Sis elementas naudoja flexbox savybes (flexbox item)
     */
   width: 25%;
+
+  /* 
+  Flex Grow, jei reiksme yra sveikas skaiciaus daugiau uz 0   
+  Tai pasakys musu flex item elementams, kad jie gali isiplesti
+  kad uzpildyti visa container ploti
+  */
+  flex-grow: 1;
   /* Visada bus 20px tarpas tarp stulpeliu */
-  margin: 0 10px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
 }
