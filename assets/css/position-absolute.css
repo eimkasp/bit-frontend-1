@@ -1,0 +1,40 @@
+
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.card a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card__image img {
+    width: 100%;
+}
+
+.card__image {
+    position: relative;
+}
+
+.icon {
+    background: #00d054;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.icon i {
+    color: white;
+    font-size: 30px;
+  
+}
+
+.card {
+    width: 50%;
+}
